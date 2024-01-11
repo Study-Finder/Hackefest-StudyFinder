@@ -13,7 +13,7 @@ class BoardingPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              SizedBox(height: 50),
+              SizedBox(height: 40),
               Image.asset(
                 'assets/logo.png',
                 width: 300,
@@ -28,10 +28,20 @@ class BoardingPage extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
+                      SizedBox(height: 10),
+                      Text(
+                        'Hello',
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          color: blueColor,
+                          fontSize: 30,
+                          fontFamily: 'Pacifico',
+                        ),
+                      ),
                       Image.asset(
                         'assets/hello.gif',
-                        width: 400,
-                        height: 300,
+                        // width: 400,
+                        // height: 400,
                       ),
                       Text(
                         '“Positive things are created, not sought, and studyfinder is one part of creating positive things”',
