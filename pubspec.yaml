@@ -21,3 +21,6 @@ flutter:
     - family: Pacifico
       fonts:
         - asset: fonts/Pacifico-Regular.ttf
+  assets:
+    - assets/logo.png
+    - assets/hello.gif
