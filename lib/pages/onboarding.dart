@@ -13,7 +13,7 @@ class BoardingPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              SizedBox(height: 60),
+              SizedBox(height: 50),
               Image.asset(
                 'assets/logo.png',
                 width: 300,
@@ -51,7 +51,9 @@ class BoardingPage extends StatelessWidget {
               ),
               SizedBox(height: 10),
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushReplacementNamed(context, '/login');
+                },
                 child: Padding(
                   padding:
                       const EdgeInsets.symmetric(horizontal: 32, vertical: 10),
