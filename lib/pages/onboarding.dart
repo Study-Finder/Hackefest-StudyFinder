@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class BoardingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    const Color blueColor = Color(0xFF0077CC);
+    const Color blueColor = Color.fromARGB(255, 0, 119, 204);
     const Color whiteColor = Color(0xFFF4FAFF);
 
     return Scaffold(
@@ -40,8 +40,6 @@ class BoardingPage extends StatelessWidget {
                       ),
                       Image.asset(
                         'assets/hello.gif',
-                        // width: 400,
-                        // height: 400,
                       ),
                       Text(
                         '“Positive things are created, not sought, and studyfinder is one part of creating positive things”',

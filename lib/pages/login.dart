@@ -5,9 +5,9 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        width: double.infinity, // Make the container fill the width
+        width: double.infinity,
         padding: EdgeInsets.all(15.0),
-        color: Colors.blue, // Replace with the exact color code from the design
+        color: Colors.blue,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -32,11 +32,9 @@ class LoginPage extends StatelessWidget {
                         'Login as Student',
                         style: TextStyle(fontSize: 18),
                       ),
-                      onPressed: () {
-                        // Handle the button action for student login
-                      },
+                      onPressed: () {},
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.blue,
+                        primary: const Color.fromRGBO(33, 150, 243, 1),
                         onPrimary: Colors.white,
                         minimumSize: Size(double.infinity, 60),
                       ),
@@ -47,9 +45,7 @@ class LoginPage extends StatelessWidget {
                         'Login as Mentor',
                         style: TextStyle(fontSize: 18),
                       ),
-                      onPressed: () {
-                        // Handle the button action for mentor login
-                      },
+                      onPressed: () {},
                       style: ElevatedButton.styleFrom(
                         primary: Colors.blue,
                         onPrimary: Colors.white,
@@ -71,9 +67,7 @@ class LoginPage extends StatelessWidget {
                   decorationColor: Colors.white,
                 ),
               ),
-              onPressed: () {
-                // Handle the button action for account creation
-              },
+              onPressed: () {},
             ),
           ],
         ),
