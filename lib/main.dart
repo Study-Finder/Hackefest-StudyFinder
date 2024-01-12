@@ -6,6 +6,7 @@ import 'package:study_finder/pages/register.dart';
 import 'package:study_finder/pages/register_form_email.dart';
 import 'package:study_finder/pages/register_form_number.dart';
 import 'package:study_finder/pages/register_role.dart';
+import 'package:study_finder/pages/OTPPage.dart';
 
 void main() {
   runApp(MyApp());
@@ -29,6 +30,7 @@ class MyApp extends StatelessWidget {
         '/register_role': (context) => RegisterRole(),
         '/register_form_email': (context) => RegisterFormPageEmail(),
         '/register_form_number': (context) => RegisterFormPageNumber(),
+        '/otp': (context) => OTPPage(),
       },
     );
   }

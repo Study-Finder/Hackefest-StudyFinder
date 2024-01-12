@@ -66,7 +66,7 @@ class RegisterFormPageNumber extends StatelessWidget {
               SizedBox(height: 24.0),
               TextButton(
                 onPressed: () {
-                  // Handle registration logic using emailController.text and passwordController.text
+                  Navigator.pushReplacementNamed(context, '/otp');
                 },
                 child: Text(
                   'REGISTER',
