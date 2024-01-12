@@ -27,7 +27,7 @@ class OTPPage extends StatelessWidget {
             SizedBox(height: 25),
             TextButton(
               onPressed: () {
-                Navigator.pushReplacementNamed(context, '/dashboard');
+                Navigator.pushReplacementNamed(context, '/vark_role');
               },
               child: Text(
                 'SUBMIT',
