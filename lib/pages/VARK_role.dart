@@ -72,7 +72,7 @@ class VarkTestRolePage extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () {
-                // TODO: Implement VARK test start functionality
+                Navigator.pushReplacementNamed(context, '/vark_test');
               },
               child: Text('START VARK TEST',
                   style: TextStyle(

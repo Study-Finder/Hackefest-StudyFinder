@@ -8,6 +8,7 @@ import 'package:study_finder/pages/register_form_number.dart';
 import 'package:study_finder/pages/register_role.dart';
 import 'package:study_finder/pages/OTPPage.dart';
 import 'package:study_finder/pages/VARK_role.dart';
+import 'package:study_finder/pages/vark_test.dart';
 
 void main() {
   runApp(MyApp());
@@ -33,6 +34,7 @@ class MyApp extends StatelessWidget {
         '/register_form_number': (context) => RegisterFormPageNumber(),
         '/otp': (context) => OTPPage(),
         '/vark_role': (context) => VarkTestRolePage(),
+        '/vark_test': (context) => VarkTestPage(),
       },
     );
   }
