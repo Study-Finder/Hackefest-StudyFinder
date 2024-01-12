@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-class LoginFormPage extends StatelessWidget {
+class RegisterFormPageNumber extends StatelessWidget {
   final TextEditingController usernameController = TextEditingController();
+  final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
 
   @override
@@ -17,6 +18,21 @@ class LoginFormPage extends StatelessWidget {
                 'assets/logo.png',
               ),
               SizedBox(height: 20.0),
+              Container(
+                padding: EdgeInsets.symmetric(horizontal: 24.0),
+                child: TextField(
+                  controller: emailController,
+                  decoration: InputDecoration(
+                    filled: true,
+                    fillColor: Colors.white,
+                    hintText: 'Phone Number',
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(12.0),
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(height: 16.0),
               Container(
                 padding: EdgeInsets.symmetric(horizontal: 24.0),
                 child: TextField(
@@ -50,10 +66,10 @@ class LoginFormPage extends StatelessWidget {
               SizedBox(height: 24.0),
               TextButton(
                 onPressed: () {
-                  // Handle login logic using usernameController.text and passwordController.text
+                  // Handle registration logic using emailController.text and passwordController.text
                 },
                 child: Text(
-                  'NEXT',
+                  'REGISTER',
                   style: TextStyle(
                     color: Color(0xFF2196F3),
                     fontWeight: FontWeight.bold,

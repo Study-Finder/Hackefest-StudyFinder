@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class LoginPage extends StatelessWidget {
+class RegisterRole extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -29,11 +29,12 @@ class LoginPage extends StatelessWidget {
                   children: <Widget>[
                     ElevatedButton(
                       child: Text(
-                        'Login as Student',
+                        'Register as Mentor',
                         style: TextStyle(fontSize: 18),
                       ),
                       onPressed: () {
-                        Navigator.pushReplacementNamed(context, '/login_form');
+                        Navigator.pushReplacementNamed(
+                            context, '/upload_sertificate');
                       },
                       style: ElevatedButton.styleFrom(
                         primary: const Color.fromRGBO(33, 150, 243, 1),
@@ -44,11 +45,11 @@ class LoginPage extends StatelessWidget {
                     SizedBox(height: 15),
                     ElevatedButton(
                       child: Text(
-                        'Login as Mentor',
+                        'Register as Student',
                         style: TextStyle(fontSize: 18),
                       ),
                       onPressed: () {
-                        Navigator.pushReplacementNamed(context, '/login_form');
+                        Navigator.pushReplacementNamed(context, '/register');
                       },
                       style: ElevatedButton.styleFrom(
                         primary: Colors.blue,
@@ -63,7 +64,7 @@ class LoginPage extends StatelessWidget {
             SizedBox(height: 10),
             TextButton(
               child: Text(
-                "Don't have an account?",
+                "Already have an account?",
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 16,
@@ -72,7 +73,7 @@ class LoginPage extends StatelessWidget {
                 ),
               ),
               onPressed: () {
-                Navigator.pushReplacementNamed(context, '/register_role');
+                Navigator.pushReplacementNamed(context, '/login');
               },
             ),
           ],
