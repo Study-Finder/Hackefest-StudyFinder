@@ -34,7 +34,7 @@ class RegisterRole extends StatelessWidget {
                       ),
                       onPressed: () {
                         Navigator.pushReplacementNamed(
-                            context, '/upload_sertificate');
+                            context, '/upload_certificate');
                       },
                       style: ElevatedButton.styleFrom(
                         primary: const Color.fromRGBO(33, 150, 243, 1),
