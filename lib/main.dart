@@ -10,6 +10,7 @@ import 'package:study_finder/pages/OTPPage.dart';
 import 'package:study_finder/pages/VARK_role.dart';
 import 'package:study_finder/pages/vark_test.dart';
 import 'package:study_finder/pages/upload_certificate.dart';
+import 'package:study_finder/pages/dashboard.dart';
 
 void main() {
   runApp(MyApp());
@@ -37,6 +38,7 @@ class MyApp extends StatelessWidget {
         '/vark_role': (context) => VarkTestRolePage(),
         '/vark_test': (context) => VarkTestPage(),
         '/upload_certificate': (context) => UploadFilePage(),
+        '/dashboard': (context) => DashboardPage(),
       },
     );
   }
