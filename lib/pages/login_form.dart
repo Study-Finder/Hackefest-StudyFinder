@@ -50,7 +50,7 @@ class LoginFormPage extends StatelessWidget {
               SizedBox(height: 24.0),
               TextButton(
                 onPressed: () {
-                  // Handle login logic using usernameController.text and passwordController.text
+                  Navigator.pushReplacementNamed(context, '/dashboard');
                 },
                 child: Text(
                   'NEXT',

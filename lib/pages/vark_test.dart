@@ -125,7 +125,7 @@ class _VarkTestRolePageState extends State<VarkTestPage> {
                         curve: Curves.easeOut,
                       );
                     } else {
-                      Navigator.pushReplacementNamed(context, '/');
+                      Navigator.pushReplacementNamed(context, '/dashboard');
                     }
                   },
                   child: Text(
