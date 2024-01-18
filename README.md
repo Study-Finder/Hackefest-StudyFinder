@@ -28,7 +28,7 @@ To run the code you can use the command:
 flutter run
 ```
 
-or if you want to see the running process, you can use
+or if you want to see the running process, you can use:
 
 ```
 flutter run -v
