@@ -1,4 +1,4 @@
-# STUDYFINDER
+# StudyFinder
 
 STUDYFINDER is here to make everything possible. We provide a collaborative learning experience, to make the learning process more efficient and enjoyable.
 
