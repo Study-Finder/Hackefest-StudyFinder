@@ -47,7 +47,7 @@ class _VarkTestRolePageState extends State<VarkTestPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue,
+      backgroundColor: Colors.blue[800],
       body: Container(
         padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 180.0),
         child: Column(

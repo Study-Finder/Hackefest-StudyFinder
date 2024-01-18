@@ -16,7 +16,7 @@ class _UploadFilePageState extends State<UploadFilePage> {
       // appBar: AppBar(
       //   title: Text('Upload File PDF'),
       // ),
-      backgroundColor: Colors.blue,
+      backgroundColor: Colors.blue[800],
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(

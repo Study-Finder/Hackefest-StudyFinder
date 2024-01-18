@@ -7,7 +7,7 @@ class LoginFormPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF2196F3),
+      backgroundColor: Colors.blue[800],
       body: SafeArea(
         child: Center(
           child: Column(
@@ -55,7 +55,7 @@ class LoginFormPage extends StatelessWidget {
                 child: Text(
                   'NEXT',
                   style: TextStyle(
-                    color: Color(0xFF2196F3),
+                    color: Colors.blue[800],
                     fontWeight: FontWeight.bold,
                     fontSize: 18.0,
                   ),

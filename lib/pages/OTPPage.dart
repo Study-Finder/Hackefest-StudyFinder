@@ -4,7 +4,7 @@ class OTPPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF2196F3),
+      backgroundColor: Colors.blue[800],
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
@@ -32,7 +32,7 @@ class OTPPage extends StatelessWidget {
               child: Text(
                 'SUBMIT',
                 style: TextStyle(
-                  color: Color(0xFF2196F3),
+                  color: Colors.blue[800],
                   fontWeight: FontWeight.bold,
                   fontSize: 18.0,
                 ),

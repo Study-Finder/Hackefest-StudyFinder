@@ -7,7 +7,7 @@ class RegisterPage extends StatelessWidget {
       body: Container(
         width: double.infinity,
         padding: EdgeInsets.all(15.0),
-        color: Color(0xFF2196F3),
+        color: Colors.blue[800],
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -37,7 +37,7 @@ class RegisterPage extends StatelessWidget {
                             context, '/register_form_email');
                       },
                       style: ElevatedButton.styleFrom(
-                        primary: const Color.fromRGBO(33, 150, 243, 1),
+                        primary: Colors.blue[800],
                         onPrimary: Colors.white,
                         minimumSize: Size(double.infinity, 60),
                       ),
@@ -53,7 +53,7 @@ class RegisterPage extends StatelessWidget {
                             context, '/register_form_number');
                       },
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.blue,
+                        primary: Colors.blue[800],
                         onPrimary: Colors.white,
                         minimumSize: Size(double.infinity, 60),
                       ),

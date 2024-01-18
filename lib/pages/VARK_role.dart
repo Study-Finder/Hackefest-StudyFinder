@@ -4,7 +4,7 @@ class VarkTestRolePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue,
+      backgroundColor: Colors.blue[800],
       body: Container(
         padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 150.0),
         child: Column(
@@ -30,7 +30,7 @@ class VarkTestRolePage extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontSize: 24.0,
-                          color: Colors.blue,
+                          color: Colors.blue[800],
                           fontFamily: 'Pacifico',
                         ),
                       ),
@@ -41,7 +41,7 @@ class VarkTestRolePage extends StatelessWidget {
                       style: TextStyle(
                         fontSize: 22.0,
                         fontWeight: FontWeight.bold, // Made text bold
-                        color: Colors.blue,
+                        color: Colors.blue[800],
                       ),
                     ),
                     SizedBox(height: 24),
@@ -77,7 +77,7 @@ class VarkTestRolePage extends StatelessWidget {
               child: Text('START VARK TEST',
                   style: TextStyle(
                     fontSize: 20.0,
-                    color: Colors.blue,
+                    color: Colors.blue[800],
                   )),
               style: ElevatedButton.styleFrom(
                 primary: Colors.white,

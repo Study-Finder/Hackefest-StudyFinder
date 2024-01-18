@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class BoardingPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    const Color blueColor = Color.fromARGB(255, 0, 119, 204);
+    const Color blueColor = Color.fromRGBO(21, 101, 192, 1);
     const Color whiteColor = Color(0xFFF4FAFF);
 
     return Scaffold(
