@@ -13,9 +13,6 @@ class _UploadFilePageState extends State<UploadFilePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-      //   title: Text('Upload File PDF'),
-      // ),
       backgroundColor: Colors.blue[800],
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -146,7 +143,6 @@ class _UploadFilePageState extends State<UploadFilePage> {
 
     _showSnackbar('File PDF berhasil diunggah');
 
-    // Navigate to the "Vark Test" page after the snackbar disappears
     await Future.delayed(Duration(seconds: 1));
     Navigator.pushReplacementNamed(context, '/dashboard');
   }

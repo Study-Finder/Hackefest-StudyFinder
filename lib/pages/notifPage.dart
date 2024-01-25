@@ -49,9 +49,7 @@ class NotificationPage extends StatelessWidget {
       subtitle: Text(subtitle),
       trailing: ElevatedButton(
         child: Text('SEE PROFILE'),
-        onPressed: () {
-          // Implement navigation to profile
-        },
+        onPressed: () {},
       ),
     );
   }

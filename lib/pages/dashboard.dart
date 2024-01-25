@@ -6,7 +6,7 @@ class DashboardPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('DASHBOARD', style: TextStyle(color: Colors.white)),
-        backgroundColor: Colors.blue[800], // Adjust color to match your theme
+        backgroundColor: Colors.blue[800],
         actions: [
           IconButton(
             icon: Icon(Icons.notifications, color: Colors.white),
@@ -35,7 +35,6 @@ class DashboardPage extends StatelessWidget {
           _buildCard('TRACKING LEARNING PROGRESS', Icons.show_chart),
           SizedBox(height: 16),
           _buildNotificationSection(),
-          // Other sections can be added here
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
@@ -100,7 +99,7 @@ class DashboardPage extends StatelessWidget {
 
   Widget _buildNotificationSection() {
     return Card(
-      color: Colors.blue[800], // Adjust color to match your theme
+      color: Colors.blue[800],
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(12.0),
       ),
@@ -111,11 +110,10 @@ class DashboardPage extends StatelessWidget {
           children: <Widget>[
             Row(
               children: [
-                Icon(Icons.chat, color: Colors.white, size: 50.0), // Chat icon
-                SizedBox(width: 8), // Spacing between icon and text
+                Icon(Icons.chat, color: Colors.white, size: 50.0),
+                SizedBox(width: 8),
                 Padding(
-                  padding:
-                      EdgeInsets.only(left: 8.0), // Menambahkan margin kiri
+                  padding: EdgeInsets.only(left: 8.0),
                   child: Text(
                     'NOTIFICATION NEW CHAT',
                     style: TextStyle(
@@ -130,7 +128,6 @@ class DashboardPage extends StatelessWidget {
             Divider(color: Colors.white54),
             _buildChatNotification('Jhon Doe', 'Chat', 1),
             _buildChatNotification('Arthur', 'Chat', 1),
-            // Add more chat notifications if needed
           ],
         ),
       ),

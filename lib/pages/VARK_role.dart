@@ -12,8 +12,7 @@ class VarkTestRolePage extends StatelessWidget {
           children: <Widget>[
             Expanded(
               child: Container(
-                margin:
-                    EdgeInsets.only(bottom: 24.0), // Added margin at the bottom
+                margin: EdgeInsets.only(bottom: 24.0),
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(16.0),
@@ -22,7 +21,6 @@ class VarkTestRolePage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     Padding(
-                      // Added padding for the text
                       padding: EdgeInsets.symmetric(
                           horizontal: 24.0, vertical: 16.0),
                       child: Text(
@@ -35,26 +33,23 @@ class VarkTestRolePage extends StatelessWidget {
                         ),
                       ),
                     ),
-                    SizedBox(height: 20), // Adjusted spacing
+                    SizedBox(height: 20),
                     Text(
                       'RULES VARK TEST',
                       style: TextStyle(
                         fontSize: 22.0,
-                        fontWeight: FontWeight.bold, // Made text bold
+                        fontWeight: FontWeight.bold,
                         color: Colors.blue[800],
                       ),
                     ),
                     SizedBox(height: 24),
-                    // List of rules
                     Padding(
-                      // Added padding for the rules
                       padding: EdgeInsets.symmetric(horizontal: 24.0),
                       child: Column(
                         children: [
                           for (int index = 1; index <= 3; index++)
                             Padding(
-                              padding: EdgeInsets.symmetric(
-                                  vertical: 8.0), // Added padding for each rule
+                              padding: EdgeInsets.symmetric(vertical: 8.0),
                               child: Text(
                                 '$index. ${index == 1 ? 'Pilihlah jawaban yang paling sesuai dengan kondisi anda.' : index == 2 ? 'Anda boleh memilih lebih dari satu pilihan jika memang ada lebih dari kondisi yang sesuai.' : 'Kosongkan saja pilihan yang tidak sesuai dengan anda.'}',
                                 textAlign: TextAlign.justify,
